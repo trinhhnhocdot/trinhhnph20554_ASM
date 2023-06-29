@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:textSize="20dp"
+        android:text="tiền thưởng "/>
+    <ImageView
+        android:id="@+id/ivSua"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/edit_24"
+        android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/ivXoa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete_24"
+        android:layout_weight="1"/>
+
+</LinearLayout>

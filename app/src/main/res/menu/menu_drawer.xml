@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+                android:id="@+id/mthu"
+                android:title="Thu"
+                 android:icon="@drawable/money_24"
+                />
+        <item
+            android:id="@+id/mchi"
+            android:title="Chi"
+            android:icon="@drawable/down_24"
+            />
+        <item
+            android:id="@+id/mthongKe"
+            android:title="Thống kê"
+            android:icon="@drawable/chart_outlined_24"
+    />
+        <group>
+                <item android:title="giới thiệu"
+                    android:icon="@drawable/person_pin_24"
+                    android:id="@+id/mgioithieu"/>
+                <item android:title="Thoát "
+                    android:icon="@drawable/back_ios_new_24"
+                    android:id="@+id/mthoat"/>
+        </group>
+
+
+
+</menu>
